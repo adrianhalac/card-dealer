@@ -1,0 +1,64 @@
+.CardDealer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Staatliches', cursive;
+}
+
+.CardDealer-header {
+  font-size: 50px;
+}
+
+.CardDealer-header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.CardDealer-button-fetch {
+  border: 2px white solid;
+  padding: 20px 40px;
+  background-color: #35654d;
+  color: white;
+  outline: none;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+}
+
+.CardDealer-button-fetch:hover {
+  background-color: white;
+  color: #35654d;
+}
+
+.CardDealer-button-reload {
+  font-size: 40px;
+}
+
+.CardDealer-button-reload button {
+  color: gold;
+  background-color: transparent;
+  border: none;
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  outline: none;
+}
+
+.CardDealer-button-reload button:hover {
+  text-shadow: 2px 2px 2px black;
+}
+
+.CardDealer-deck {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  height: 314px;
+  width: 226px;
+}
+
+.CardDealer-remaining {
+  background-color: #35654d;
+  color: white;
+}
+
+.CardDealer-remaining-num {
+  color: gold;
+}
